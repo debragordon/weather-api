@@ -128,8 +128,6 @@ function createLogoutButton() {
     let currentUserName = userResponse.username;
     let logoutButton = `<button class="btn btn-danger" id="logout-button">LOGOUT ${currentUserName}</button>`;
     $("#logout-container").append(logoutButton);
-    let userInfo = `<div><span class="glyphicon glyphicon-user" aria-hidden="true"> </span><h4>Hello ${currentUsername}, welcome back!</h4></div>`;
-    $('#user-container').append(userInfo);
   });
 }
 

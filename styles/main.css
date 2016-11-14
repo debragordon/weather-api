@@ -5,3 +5,6 @@
 .weather-card {
   border: 1px #e4e4e4 solid;
   width: 10em; }
+
+.mt {
+  margin-top: 10px; }
