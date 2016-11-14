@@ -7,24 +7,24 @@
 </head>
 <body>
   <div class="container col-xs-4 col-xs-offset-4" id="login-container">
-    <h1 class="form-signin-heading">iWeather</h1>
+    <h1 class="form-signin-heading">WEATHER NOW</h1>
     <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
     <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
     <input type="text" id="inputUsername" class="form-control" placeholder="Username" required>
     <button class="btn btn-lg btn-success col-xs-6" id="loginButton">Login</button>
     <button class="btn btn-lg btn-primary col-xs-6" id="registerButton">Register</button>
   </div>
-  <div id="logout-container" class="hidden"></div>
   <div id=main-app class="hidden">
-    <div class="container">
+    <div class="container mt">
+      <div id="logout-container" class="hidden text-right"></div>
       <div class="row">
         <div class="col-md-12">
-          <h2>iWeather</h2>
+          <h2>WEATHER NOW</h2>
           <div id="custom-search-input">
             <div class="input-group col-md-10">
-              <input id="user-zip" type="text" class="form-control input-lg" placeholder="enter zip (ex. 90120)" />
+              <input id="user-zip" type="text" class="form-control input-lg" placeholder="enter zip (ex. 10001)" />
               <span class="input-group-btn">
-                <button id="weather-search-btn" class="btn btn-info btn-lg" type="button"><i class="glyphicon glyphicon-search"></i>Locate Weather</button>
+                <button id="weather-search-btn" class="btn btn-info btn-lg" type="button"><i class="glyphicon glyphicon-search"></i> Locate Weather</button>
               </span>
             </div>
           </div>
